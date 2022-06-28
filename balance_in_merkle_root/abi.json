@@ -1,0 +1,27 @@
+{
+  "inputs": [
+    {
+      "name": "target_leaf",
+      "public": false,
+      "type": "array",
+      "components": {
+        "size": 4,
+        "type": "field"
+      }
+    },
+    {
+      "name": "proof",
+      "public": false,
+      "type": "array",
+      "components": {
+        "size": 2,
+        "type": "array",
+        "components": {
+          "size": 2,
+          "type": "field"
+        }
+      }
+    }
+  ],
+  "outputs": []
+}
