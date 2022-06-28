@@ -1,0 +1,12 @@
+{
+  "inputs": [],
+  "outputs": [
+    {
+      "type": "array",
+      "components": {
+        "size": 2,
+        "type": "field"
+      }
+    }
+  ]
+}

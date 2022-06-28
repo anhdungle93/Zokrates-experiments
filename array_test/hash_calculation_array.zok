@@ -1,0 +1,8 @@
+import "hashes/sha256/512bitPacked" as sha256packed
+from "./example" import leaf_hash_0_1, leaf_hash_2_3
+
+def main() -> field[2]:
+    field[2] a = leaf_hash_0_1
+    field[2] b = leaf_hash_2_3
+    field[2] h = sha256packed([a[0], a[1], b[0], b[1]])
+    return h
